@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Formulario/public/styles/formulario.css">
+    <link rel="stylesheet" href="../../src/public/styles/styleForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Prova de 30 minutos</title>
+    <style>
+        .senai-header {
+            font-family: 'Arial', sans-serif;
+            font-size: 2.5rem;
+            color: #ffffff;
+            text-align: center;
+            background-color: #d52b1e;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formDiv">
+        <header>
+            <h1 class="senai-header">Prova de 30 minutos (Teste de Tecnologia)</h1>
+            <img src="../public/img/senai-logo.png" alt="Logo SENAI">
+        </header>
+
+        <main>
+            <div id="timer">30:00</div>
+            <form id="quizForm" class="quizForm">
+                <!-- Questão 1 -->
+                <fieldset>
+                    <legend>1. Qual a complexidade de tempo do algoritmo de busca binária?</legend>
+                    <label><input type="radio" name="q1" value="O(log n)"> O(log n)</label>
+                    <label><input type="radio" name="q1" value="O(n)"> O(n)</label>
+                    <label><input type="radio" name="q1" value="O(n log n)"> O(n log n)</label>
+                    <label><input type="radio" name="q1" value="O(1)"> O(1)</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 2 -->
+                <fieldset>
+                    <legend>2. Qual a principal diferença entre uma API REST e uma API GraphQL?</legend>
+                    <label><input type="radio" name="q2"
+                            value="REST usa endpoints fixos, enquanto GraphQL permite consultas dinâmicas"> REST usa
+                        endpoints fixos, enquanto GraphQL permite consultas dinâmicas</label>
+                    <label><input type="radio" name="q2" value="GraphQL não suporta autenticação"> GraphQL não suporta
+                        autenticação</label>
+                    <label><input type="radio" name="q2" value="REST é mais rápido que GraphQL"> REST é mais rápido que
+                        GraphQL</label>
+                    <label><input type="radio" name="q2" value="GraphQL não permite operações de escrita"> GraphQL não
+                        permite operações de escrita</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 3 -->
+                <fieldset>
+                    <legend>3. O que é arquitetura de microsserviços?</legend>
+                    <label><input type="radio" name="q3"
+                            value="Um modelo de desenvolvimento baseado em pequenos serviços independentes"> Um modelo
+                        de desenvolvimento baseado em pequenos serviços independentes</label>
+                    <label><input type="radio" name="q3" value="Uma estrutura monolítica de aplicações"> Uma estrutura
+                        monolítica de aplicações</label>
+                    <label><input type="radio" name="q3" value="Um tipo de banco de dados"> Um tipo de banco de
+                        dados</label>
+                    <label><input type="radio" name="q3" value="Uma linguagem de programação"> Uma linguagem de
+                        programação</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 4 -->
+                <fieldset>
+                    <legend>4. O que é um container Docker?</legend>
+                    <label><input type="radio" name="q4"
+                            value="Uma unidade de software que inclui código e dependências"> Uma unidade de software
+                        que inclui código e dependências</label>
+                    <label><input type="radio" name="q4" value="Um tipo de máquina virtual"> Um tipo de máquina
+                        virtual</label>
+                    <label><input type="radio" name="q4" value="Um servidor de hospedagem"> Um servidor de
+                        hospedagem</label>
+                    <label><input type="radio" name="q4" value="Um protocolo de rede"> Um protocolo de rede</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 5 -->
+                <fieldset>
+                    <legend>5. O que é um load balancer?</legend>
+                    <label><input type="radio" name="q5" value="Um sistema que distribui tráfego entre servidores"> Um
+                        sistema que distribui tráfego entre servidores</label>
+                    <label><input type="radio" name="q5" value="Um banco de dados para armazenar logs"> Um banco de
+                        dados para armazenar logs</label>
+                    <label><input type="radio" name="q5" value="Uma ferramenta para desenvolvimento mobile"> Uma
+                        ferramenta para desenvolvimento mobile</label>
+                    <label><input type="radio" name="q5" value="Um sistema operacional"> Um sistema operacional</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 6 -->
+                <fieldset>
+                    <legend>6. O que é um "loop" em programação?</legend>
+                    <label><input type="radio" name="q6"
+                            value="Uma estrutura que repete um bloco de código várias vezes"> Uma estrutura que repete
+                        um bloco de código várias vezes</label>
+                    <label><input type="radio" name="q6" value="Um tipo de variável"> Um tipo de variável</label>
+                    <label><input type="radio" name="q6" value="Um método para ordenar listas"> Um método para ordenar
+                        listas</label>
+                    <label><input type="radio" name="q6" value="Um erro comum em programas"> Um erro comum em
+                        programas</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 7 -->
+                <fieldset>
+                    <legend>7. O que é um "framework" em desenvolvimento de software?</legend>
+                    <label><input type="radio" name="q7"
+                            value="Um conjunto de ferramentas e bibliotecas que facilitam o desenvolvimento"> Um
+                        conjunto de ferramentas e bibliotecas que facilitam o desenvolvimento</label>
+                    <label><input type="radio" name="q7" value="Um tipo de banco de dados"> Um tipo de banco de
+                        dados</label>
+                    <label><input type="radio" name="q7" value="Um sistema operacional"> Um sistema operacional</label>
+                    <label><input type="radio" name="q7" value="Um protocolo de rede"> Um protocolo de rede</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 8 -->
+                <fieldset>
+                    <legend>8. O que é um "commit" no Git?</legend>
+                    <label><input type="radio" name="q8" value="Um registro de alterações no repositório"> Um registro
+                        de alterações no repositório</label>
+                    <label><input type="radio" name="q8" value="Um comando para excluir arquivos"> Um comando para
+                        excluir arquivos</label>
+                    <label><input type="radio" name="q8" value="Um tipo de branch"> Um tipo de branch</label>
+                    <label><input type="radio" name="q8" value="Um erro no código"> Um erro no código</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 9 -->
+                <fieldset>
+                    <legend>9. O que é um banco de dados NoSQL?</legend>
+                    <label><input type="radio" name="q9" value="Um banco de dados que não usa tabelas relacionais"> Um
+                        banco de dados que não usa tabelas relacionais</label>
+                    <label><input type="radio" name="q9" value="Um banco de dados baseado exclusivamente em SQL"> Um
+                        banco de dados baseado exclusivamente em SQL</label>
+                    <label><input type="radio" name="q9" value="Um tipo de API para consultas"> Um tipo de API para
+                        consultas</label>
+                    <label><input type="radio" name="q9" value="Um framework para desenvolvimento web"> Um framework
+                        para desenvolvimento web</label>
+                </fieldset>
+                <hr>
+
+                <!-- Questão 10 -->
+                <fieldset>
+                    <legend>10. O que significa o conceito de "DevOps" na tecnologia?</legend>
+                    <label><input type="radio" name="q10" value="Integração entre desenvolvimento e operações">
+                        Integração entre desenvolvimento e operações</label>
+                    <label><input type="radio" name="q10" value="Um novo tipo de linguagem de programação"> Um novo tipo
+                        de linguagem de programação</label>
+                    <label><input type="radio" name="q10" value="Um sistema operacional para servidores"> Um sistema
+                        operacional para servidores</label>
+                    <label><input type="radio" name="q10" value="Uma metodologia exclusiva para testes de software"> Uma
+                        metodologia exclusiva para testes de software</label>
+                </fieldset>
+                <hr>
+
+                <!-- Botão de envio e contador de acertos -->
+                <div id="button_align">
+                    <div id="acerto">ACERTOS: 0</div>
+                    <button type="button" id="btnenviar">ENVIAR</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
